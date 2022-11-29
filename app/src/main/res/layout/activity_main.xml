@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff8f8f8"
+        tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#ffffffff"
+        tools:layout_editor_absoluteY="20dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:src="@mipmap/shezhi" />
+
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_width="fill_parent"
+            android:layout_height='wrap_content'
+            android:gravity="center_horizontal"
+            android:text="设备列表"
+            android:textColor="#ff333333"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffffff"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_searchtext"
+                android:layout_width="360dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/search_round"
+                android:hint="请输入“PIN码”或“IP地址"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:paddingLeft="15.5dp"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:paddingRight="11dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/fanhui" />
+   </LinearLayout>
+
+   <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/shebeilist"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MyShow-8208"
+                    android:textColor="#ff333333"
+                    android:textSize="14sp"
+                    android:layout_marginTop="19.5dp"
+                    android:layout_marginLeft="14.5dp"
+                    />
+                <TextView
+                    android:layout_marginTop="4.5dp"
+                    android:layout_marginLeft="14.5dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="192.168.3.234"
+                    android:textColor="#ff999999"
+                    android:textSize="12sp"
+                    />
+
+            </LinearLayout>
+
+   </ScrollView>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="198dp"
+        android:layout_width="184.5dp"
+        android:layout_height="105dp"
+        android:src="@mipmap/nodata" />
+
+   <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_a"
+                android:gravity="center"
+                android:text="扫码连接"
+                android:textColor="#ffffffff"
+                android:textSize="14sp" />
+   </RelativeLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
