@@ -86,6 +86,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:background="@drawable/home_button"
@@ -114,6 +115,7 @@
 
 
         <LinearLayout
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:background="@drawable/home_button"
@@ -140,14 +142,19 @@
 
         </LinearLayout>
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+        <RelativeLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
                 >
                 <LinearLayout
+                    android:visibility="visible"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="30dp"
                     android:gravity="center"
                     >
                     <LinearLayout
@@ -155,6 +162,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:gravity="center"
+                        android:layout_marginRight="22dp"
                         android:orientation="vertical">
 
                         <ImageView
@@ -177,6 +185,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:gravity="center"
+                        android:layout_marginRight="22dp"
                         android:orientation="vertical">
 
                         <ImageView
@@ -199,6 +208,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:gravity="center"
+                        android:layout_marginRight="22dp"
                         android:orientation="vertical">
 
                         <ImageView
@@ -221,6 +231,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:gravity="center"
+                        android:layout_marginRight="22dp"
                         android:orientation="vertical">
 
                         <ImageView
@@ -263,7 +274,35 @@
                 </LinearLayout>
 
 
-            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="139dp"
+            android:gravity="center"
+            android:layout_marginBottom="70dp"
+            android:src="@mipmap/end" />
+
+        <TextView
+            android:layout_width="275dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_a"
+            android:gravity="center"
+            android:text="结束投屏"
+            android:textColor="#ffffffff"
+            android:textSize="14sp" />
+
 
     </LinearLayout>
 
