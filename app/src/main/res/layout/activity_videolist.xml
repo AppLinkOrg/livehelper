@@ -39,59 +39,122 @@
                         android:textSize="16sp"
                         />
                     <TextView
+                        android:visibility="gone"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="音频"
                         android:textColor="#ff666666"
                         android:textSize="14sp"
                         />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="音频"
+                        android:textColor="#ffda4e44"
+                        android:textSize="16sp"
+                        />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
 
-        <RelativeLayout
+        <ScrollView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            >
-            <ImageView
-                android:layout_margin="5dp"
-                android:layout_width="120dp"
-                android:layout_centerInParent="true"
-                android:layout_height="100dp"
-                android:src="@mipmap/video" />
-
-            <LinearLayout
-                android:layout_width="120dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="80dp"
                 android:gravity="center"
-                android:background="@drawable/videobac"
-                android:orientation="horizontal">
-
+                >
                 <ImageView
-                    android:layout_width="26dp"
-                    android:layout_height="26dp"
-                    android:gravity="left"
-                    android:layout_marginLeft="5dp"
-                    android:src="@mipmap/bofang_s" />
+                    android:layout_margin="5dp"
+                    android:layout_width="120dp"
+                    android:layout_centerInParent="true"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/video" />
 
                 <LinearLayout
-                    android:layout_width="fill_parent"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
-                    android:gravity="right"
-                    android:layout_marginRight="5dp"
-                    >
-                    <TextView
-                        android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="80dp"
+                    android:gravity="center"
+                    android:background="@drawable/videobac"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:src="@mipmap/bofang_s" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:text="0:11"
-                        android:textColor="#ffffffff"
-                        android:textSize="12sp" />
+                        android:gravity="right"
+                        android:layout_marginRight="5dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0:11"
+                            android:textColor="#ffffffff"
+                            android:textSize="12sp" />
+                    </LinearLayout>
                 </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="11dp"
+                    >
+                    <ImageView
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:src="@mipmap/voice" />
+                    <TextView
+                        android:layout_marginLeft="10.5dp"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="好听的歌曲"
+                        android:textColor="#ff333333"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#ffeeeeee"/>
+                        />
+                </LinearLayout>
+
             </LinearLayout>
-        </RelativeLayout>
+
+        </ScrollView>
 
 
     </LinearLayout>
