@@ -10,11 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="386816b0-72dd-4f0b-bb8a-4c2e91f37c35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/drawable/botton_huifu_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/drawable/ftu_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/drawable/huifu_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/drawable/ip_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/drawable/wanglou_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/mipmap-mdpi/app_hf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/mipmap-mdpi/app_sb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/mipmap-mdpi/app_sj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/mipmap-mdpi/app_sz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/mipmap-mdpi/app_wl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/mipmap-mdpi/wifi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/mipmap-mdpi/wifi_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/mipmap-mdpi/xialaxuanze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/mipmap-mdpi/xialaxuanze_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../liveftu/app/src/main/res/layout/activity_allvideo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/layout/activity_allvideo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../liveftu/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../liveftu/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activty_telecontrol.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activty_telecontrol.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +52,7 @@
       <list>
         <option value="resourceFile" />
         <option value="layoutResourceFile" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>
@@ -53,6 +70,9 @@
   </component>
   <component name="ProjectId" id="2IFZIACUCJEPvMVP4oQu0c6SZWe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -74,10 +94,11 @@
     <property name="android.sdk.path" value="$PROJECT_DIR$/.." />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AndroidMY\pct\livehelper\app\src\main\res\values-night" />
       <recent name="D:\AndroidMY\livehelper\app\src\main\res\mipmap-xxxhdpi" />
       <recent name="D:\AndroidMY\livehelper\app\src\main\res\mipmap-hdpi" />
       <recent name="D:\AndroidMY\livehelper\app\src\main\res\layout" />
