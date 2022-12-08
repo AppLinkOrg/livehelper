@@ -10,14 +10,14 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="@dimen/dp44"
             android:background="#ffffffff"
             android:orientation="horizontal">
             <ImageView
                 android:layout_gravity="center"
-                android:layout_width="18dp"
-                android:layout_height="18dp"
-                android:layout_marginLeft="10.5dp"
+                android:layout_width="@dimen/dp18"
+                android:layout_height="@dimen/dp18"
+                android:layout_marginLeft="@dimen/dp10"
                 android:src="@mipmap/return_ba" />
             <LinearLayout
                 android:layout_gravity="center"
@@ -47,11 +47,11 @@
             android:gravity="center"
             >
             <ImageView
-                android:layout_margin="5dp"
+                android:layout_margin="@dimen/dp5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:layout_marginBottom="70dp"
+                android:layout_marginBottom="@dimen/dp70"
                 android:src="@mipmap/end" />
         </LinearLayout>
 
@@ -63,45 +63,45 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:paddingBottom="6.5dp"
+                android:paddingBottom="@dimen/dp6"
                 android:gravity="center"
                 >
 
                 <ImageView
                     android:visibility="visible"
-                    android:layout_width="26dp"
-                    android:layout_height="26dp"
-                    android:layout_marginRight="38dp"
+                    android:layout_width="@dimen/dp26"
+                    android:layout_height="@dimen/dp26"
+                    android:layout_marginRight="@dimen/dp38"
                     android:src="@mipmap/left" />
                 <ImageView
                     android:visibility="gone"
-                    android:layout_width="26dp"
-                    android:layout_height="26dp"
-                    android:layout_marginRight="38dp"
+                    android:layout_width="@dimen/dp26"
+                    android:layout_height="@dimen/dp26"
+                    android:layout_marginRight="@dimen/dp38"
                     android:src="@mipmap/left_s" />
 
                 <ImageView
                     android:visibility="visible"
-                    android:layout_width="26dp"
-                    android:layout_height="26dp"
-                    android:layout_marginRight="38dp"
+                    android:layout_width="@dimen/dp26"
+                    android:layout_height="@dimen/dp26"
+                    android:layout_marginRight="@dimen/dp38"
                     android:src="@mipmap/bofang" />
                 <ImageView
                     android:visibility="gone"
-                    android:layout_width="26dp"
-                    android:layout_height="26dp"
-                    android:layout_marginRight="38dp"
+                    android:layout_width="@dimen/dp26"
+                    android:layout_height="@dimen/dp26"
+                    android:layout_marginRight="@dimen/dp38"
                     android:src="@mipmap/bofang_s" />
 
                 <ImageView
                     android:visibility="visible"
-                    android:layout_width="26dp"
-                    android:layout_height="26dp"
+                    android:layout_width="@dimen/dp26"
+                    android:layout_height="@dimen/dp26"
                     android:src="@mipmap/right" />
                 <ImageView
                     android:visibility="gone"
-                    android:layout_width="26dp"
-                    android:layout_height="26dp"
+                    android:layout_width="@dimen/dp26"
+                    android:layout_height="@dimen/dp26"
                     android:src="@mipmap/right_s" />
 
             </LinearLayout>

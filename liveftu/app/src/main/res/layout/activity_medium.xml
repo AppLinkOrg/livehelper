@@ -14,13 +14,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginLeft="@dimen/dp20"
+            android:layout_marginTop="@dimen/dp25"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="21.3dp"
-                android:layout_height="21.3dp"
+                android:layout_width="@dimen/dp21"
+                android:layout_height="@dimen/dp21"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:src="@mipmap/fanhui" />
@@ -29,7 +29,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="@dimen/dp20"
                 android:gravity="center"
                 android:text="媒体中心"
                 android:textColor="#ffffffff"
@@ -39,23 +39,23 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="18dp"
+            android:layout_marginTop="@dimen/dp18"
             android:orientation="horizontal"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp">
+            android:paddingLeft="@dimen/dp20"
+            android:paddingRight="@dimen/dp20">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="134dp"
-                android:layout_marginRight="5dp"
+                android:layout_height="@dimen/dp134"
+                android:layout_marginRight="@dimen/dp5"
                 android:layout_weight="1"
                 android:background="@drawable/med_video"
                 android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="28dp"
-                    android:layout_height="28dp"
+                    android:layout_width="@dimen/dp28"
+                    android:layout_height="@dimen/dp28"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:src="@mipmap/video_icon" />
@@ -63,7 +63,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="26dp"
+                    android:layout_marginTop="@dimen/dp26"
                     android:text="视频"
                     android:textColor="#ffffffff"
                     android:textSize="13sp" />
@@ -71,16 +71,16 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="134dp"
-                android:layout_marginRight="5dp"
+                android:layout_height="@dimen/dp134"
+                android:layout_marginRight="@dimen/dp5"
                 android:layout_weight="1"
                 android:background="@drawable/med_music"
                 android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="28dp"
-                    android:layout_height="28dp"
+                    android:layout_width="@dimen/dp28"
+                    android:layout_height="@dimen/dp28"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:src="@mipmap/music_iocn" />
@@ -88,7 +88,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="26dp"
+                    android:layout_marginTop="@dimen/dp26"
                     android:text="音乐"
                     android:textColor="#ffffffff"
                     android:textSize="13sp" />
@@ -96,16 +96,16 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="134dp"
-                android:layout_marginRight="5dp"
+                android:layout_height="@dimen/dp134"
+                android:layout_marginRight="@dimen/dp5"
                 android:layout_weight="1"
                 android:background="@drawable/med_img"
                 android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="28dp"
-                    android:layout_height="28dp"
+                    android:layout_width="@dimen/dp28"
+                    android:layout_height="@dimen/dp28"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:src="@mipmap/img_icon" />
@@ -113,7 +113,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="26dp"
+                    android:layout_marginTop="@dimen/dp26"
                     android:text="图片"
                     android:textColor="#ffffffff"
                     android:textSize="13sp" />
@@ -121,15 +121,15 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="134dp"
+                android:layout_height="@dimen/dp134"
                 android:layout_weight="1"
                 android:background="@drawable/med_file"
                 android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="28dp"
-                    android:layout_height="28dp"
+                    android:layout_width="@dimen/dp28"
+                    android:layout_height="@dimen/dp28"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:src="@mipmap/file_icon" />
@@ -137,7 +137,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="26dp"
+                    android:layout_marginTop="@dimen/dp26"
                     android:text="文件"
                     android:textColor="#ffffffff"
                     android:textSize="13sp" />

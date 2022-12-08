@@ -10,14 +10,14 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="@dimen/dp44"
             android:background="#ffffffff"
             android:orientation="horizontal">
             <ImageView
                 android:layout_gravity="center"
-                android:layout_width="18dp"
-                android:layout_height="18dp"
-                android:layout_marginLeft="10.5dp"
+                android:layout_width="@dimen/dp18"
+                android:layout_height="@dimen/dp18"
+                android:layout_marginLeft="@dimen/dp10"
                 android:src="@mipmap/return_ba" />
             <LinearLayout
                 android:layout_gravity="center"
@@ -25,12 +25,12 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:layout_width="363dp"
+                    android:layout_width="@dimen/dp363"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:layout_marginRight="28.5dp"
+                    android:layout_marginRight="@dimen/dp28"
                     android:text="创建NFC标签"
                     android:textColor="#ff333333"
                     android:textSize="16sp"/>
@@ -43,9 +43,9 @@
             android:orientation="vertical"
             >
             <ImageView
-                android:layout_marginTop="100dp"
-                android:layout_width="219dp"
-                android:layout_height="163.5dp"
+                android:layout_marginTop="@dimen/dp100"
+                android:layout_width="@dimen/dp219"
+                android:layout_height="@dimen/dp163"
                 android:src="@mipmap/nfc" />
             <TextView
 
@@ -53,18 +53,18 @@
                 android:layout_height="wrap_content"
                 android:text="请将NFC标签靠近手机背面"
                 android:textColor="#ff666666"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="@dimen/dp40"
                 android:textSize="14sp"/>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="40dp"
-                android:layout_marginRight="40dp"
+                android:layout_marginLeft="@dimen/dp40"
+                android:layout_marginRight="@dimen/dp40"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
                 >
                 <TextView
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="@dimen/dp30"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="写入成功后，支持NFC功能的手机将可以通过此标签快速投屏到 直播助手-0231"
@@ -73,7 +73,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="@dimen/dp20"
                     android:text=" 直播助手-0231"
                     android:textSize="14sp"
                     android:textColor="#FF3C3C"/>

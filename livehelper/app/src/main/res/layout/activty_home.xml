@@ -14,19 +14,19 @@
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:background="#ffffffff"
-            tools:layout_editor_absoluteY="20dp"
+            tools:layout_editor_absoluteY="@dimen/dp20"
             tools:ignore="MissingConstraints">
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginLeft="14dp"
-                android:layout_marginTop="12dp"
-                android:layout_marginBottom="12dp"
+                android:layout_width="@dimen/dp20"
+                android:layout_height="@dimen/dp20"
+                android:layout_marginLeft="@dimen/dp14"
+                android:layout_marginTop="@dimen/dp12"
+                android:layout_marginBottom="@dimen/dp12"
                 android:src="@mipmap/shezhi" />
 
             <TextView
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="@dimen/dp12"
                 android:layout_width="fill_parent"
                 android:layout_height='wrap_content'
                 android:gravity="center_horizontal"
@@ -50,7 +50,7 @@
                 android:textSize="13sp"
                 />
             <LinearLayout
-                android:layout_width="300dp"
+                android:layout_width="@dimen/dp300"
                 android:orientation="vertical"
                 android:layout_height="wrap_content">
                 <TextView
@@ -59,15 +59,15 @@
                     android:text="MyShow-8208"
                     android:textColor="#ff333333"
                     android:textSize="14sp"
-                    android:layout_marginLeft="9dp"
-                    android:layout_marginRight="10dp"
-                    android:paddingTop="11dp"
+                    android:layout_marginLeft="@dimen/dp9"
+                    android:layout_marginRight="@dimen/dp10"
+                    android:paddingTop="@dimen/dp11"
                     />
                 <TextView
-                    android:paddingBottom="11dp"
-                    android:layout_marginTop="4.5dp"
-                    android:layout_marginLeft="9dp"
-                    android:layout_marginRight="10dp"
+                    android:paddingBottom="@dimen/dp11"
+                    android:layout_marginTop="@dimen/dp4"
+                    android:layout_marginLeft="@dimen/dp9"
+                    android:layout_marginRight="@dimen/dp10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="192.168.3.234"
@@ -77,31 +77,31 @@
 
             </LinearLayout>
             <ImageView
-                android:layout_width="18dp"
-                android:layout_height="18dp"
+                android:layout_width="@dimen/dp18"
+                android:layout_height="@dimen/dp18"
                 android:layout_gravity="center"
-                android:layout_marginLeft="14dp"
-                android:layout_marginRight="14dp"
+                android:layout_marginLeft="@dimen/dp14"
+                android:layout_marginRight="@dimen/dp14"
                 android:src="@mipmap/off" />
         </LinearLayout>
 
         <LinearLayout
             android:visibility="gone"
             android:layout_width="match_parent"
-            android:layout_height="120dp"
+            android:layout_height="@dimen/dp120"
             android:background="@drawable/home_button"
-            android:layout_marginLeft="70dp"
-            android:layout_marginRight="70dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginLeft="@dimen/dp70"
+            android:layout_marginRight="@dimen/dp70"
+            android:layout_marginTop="@dimen/dp60"
             android:layout_gravity="center"
             android:gravity="center"
             >
             <ImageView
-                android:layout_width="84dp"
-                android:layout_height="84dp"
-                android:layout_marginLeft="14dp"
-                android:layout_marginTop="12dp"
-                android:layout_marginBottom="12dp"
+                android:layout_width="@dimen/dp84"
+                android:layout_height="@dimen/dp84"
+                android:layout_marginLeft="@dimen/dp14"
+                android:layout_marginTop="@dimen/dp12"
+                android:layout_marginBottom="@dimen/dp12"
                 android:src="@mipmap/phone" />
             <TextView
                 android:layout_width="wrap_content"
@@ -117,20 +117,20 @@
         <LinearLayout
             android:visibility="gone"
             android:layout_width="match_parent"
-            android:layout_height="120dp"
+            android:layout_height="@dimen/dp120"
             android:background="@drawable/home_button"
-            android:layout_marginLeft="70dp"
-            android:layout_marginRight="70dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginLeft="@dimen/dp70"
+            android:layout_marginRight="@dimen/dp70"
+            android:layout_marginTop="@dimen/dp60"
             android:layout_gravity="center"
             android:gravity="center"
             >
             <ImageView
-                android:layout_width="84dp"
-                android:layout_height="84dp"
-                android:layout_marginLeft="14dp"
-                android:layout_marginTop="12dp"
-                android:layout_marginBottom="12dp"
+                android:layout_width="@dimen/dp84"
+                android:layout_height="@dimen/dp84"
+                android:layout_marginLeft="@dimen/dp14"
+                android:layout_marginTop="@dimen/dp12"
+                android:layout_marginBottom="@dimen/dp12"
                 android:src="@mipmap/terminal" />
             <TextView
                 android:layout_width="wrap_content"
@@ -153,8 +153,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
-                    android:paddingTop="20dp"
-                    android:paddingBottom="30dp"
+                    android:paddingTop="@dimen/dp20"
+                    android:paddingBottom="@dimen/dp30"
                     android:gravity="center"
                     >
                     <LinearLayout
@@ -162,12 +162,12 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:layout_marginRight="22dp"
+                        android:layout_marginRight="@dimen/dp22"
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="47dp"
-                            android:layout_height="47dp"
+                            android:layout_width="@dimen/dp47"
+                            android:layout_height="@dimen/dp47"
                             android:src="@mipmap/img" />
                         <TextView
                             android:layout_gravity="center"
@@ -189,8 +189,8 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="47dp"
-                            android:layout_height="47dp"
+                            android:layout_width="@dimen/dp47"
+                            android:layout_height="@dimen/dp47"
                             android:src="@mipmap/video" />
                         <TextView
                             android:layout_gravity="center"
@@ -208,12 +208,12 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:layout_marginRight="22dp"
+                        android:layout_marginRight="@dimen/dp22"
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="47dp"
-                            android:layout_height="47dp"
+                            android:layout_width="@dimen/dp47"
+                            android:layout_height="@dimen/dp47"
                             android:src="@mipmap/document" />
                         <TextView
                             android:layout_gravity="center"
@@ -231,12 +231,12 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:layout_marginRight="22dp"
+                        android:layout_marginRight="@dimen/dp22"
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="47dp"
-                            android:layout_height="47dp"
+                            android:layout_width="@dimen/dp47"
+                            android:layout_height="@dimen/dp47"
                             android:src="@mipmap/photograph" />
                         <TextView
                             android:layout_gravity="center"
@@ -257,8 +257,8 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="47dp"
-                            android:layout_height="47dp"
+                            android:layout_width="@dimen/dp47"
+                            android:layout_height="@dimen/dp47"
                             android:src="@mipmap/yaokongqi" />
                         <TextView
                             android:layout_gravity="center"
@@ -288,15 +288,15 @@
         android:visibility="visible">
 
         <ImageView
-            android:layout_width="130dp"
-            android:layout_height="139dp"
+            android:layout_width="@dimen/dp130"
+            android:layout_height="@dimen/dp39"
             android:gravity="center"
-            android:layout_marginBottom="70dp"
+            android:layout_marginBottom="@dimen/dp70"
             android:src="@mipmap/end" />
 
         <TextView
-            android:layout_width="275dp"
-            android:layout_height="40dp"
+            android:layout_width="@dimen/dp275"
+            android:layout_height="@dimen/dp40"
             android:background="@drawable/button_a"
             android:gravity="center"
             android:text="结束投屏"

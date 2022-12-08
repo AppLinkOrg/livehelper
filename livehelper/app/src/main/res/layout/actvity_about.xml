@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -10,14 +11,14 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="@dimen/dp44"
             android:background="#ffffffff"
             android:orientation="horizontal">
             <ImageView
                 android:layout_gravity="center"
-                android:layout_width="18dp"
-                android:layout_height="18dp"
-                android:layout_marginLeft="10.5dp"
+                android:layout_width="@dimen/dp18"
+                android:layout_height="@dimen/dp18"
+                android:layout_marginLeft="@dimen/dp10"
                 android:src="@mipmap/return_ba" />
             <LinearLayout
                 android:layout_gravity="center"
@@ -25,12 +26,12 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:layout_width="363dp"
+                    android:layout_width="@dimen/dp363"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:layout_marginRight="28.5dp"
+                    android:layout_marginRight="@dimen/dp28"
                     android:text="关于"
                     android:textColor="#ff333333"
                     android:textSize="16sp"/>
@@ -43,31 +44,31 @@
             android:orientation="vertical"
             >
             <ImageView
-                android:layout_marginTop="100dp"
-                android:layout_width="90dp"
-                android:layout_height="90dp"
+                android:layout_marginTop="@dimen/dp100"
+                android:layout_width="@dimen/dp90"
+                android:layout_height="@dimen/dp90"
                 android:src="@mipmap/nfc" />
             <TextView
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="@dimen/dp15"
                 android:text="直播助手"
                 android:textColor="#ff333333"
                 android:textSize="18sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="@dimen/dp15"
                 android:text="v7.2.234 M2234J10C"
                 android:textColor="#ff999999"
                 android:textSize="12sp"/>
             <TextView
                 android:gravity="center"
                 android:layout_gravity="center"
-                android:layout_marginTop="82.5dp"
-                android:layout_width="100dp"
-                android:layout_height="30dp"
+                android:layout_marginTop="@dimen/dp82.5"
+                android:layout_width="@dimen/dp100"
+                android:layout_height="@dimen/dp30"
                 android:text="检查更新"
                 android:textColor="#ffda4e44"
                 android:background="@drawable/about_bk"

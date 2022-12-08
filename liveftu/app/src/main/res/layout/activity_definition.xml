@@ -14,24 +14,24 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginLeft="@dimen/dp20"
+            android:layout_marginTop="@dimen/dp25"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="21.3dp"
-                android:layout_height="21.3dp"
+                android:layout_width="@dimen/dp21"
+                android:layout_height="@dimen/dp21"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:src="@mipmap/fanhui" />
             <LinearLayout
-                android:layout_width="154dp"
-                android:layout_height="87dp"
+                android:layout_width="@dimen/dp154"
+                android:layout_height="@dimen/dp87"
                 android:gravity="center"
                 android:background="@drawable/definition_bg"
                 android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
-                android:layout_marginRight="20dp"
+                android:layout_marginRight="@dimen/dp20"
                 >
                 <TextView
                     android:layout_width="wrap_content"
@@ -51,19 +51,19 @@
             >
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_marginLeft="27dp"
+                android:layout_marginLeft="@dimen/dp27"
                 android:layout_height="wrap_content">
                 <ImageView
-                    android:layout_width="133dp"
-                    android:layout_height="108dp"
+                    android:layout_width="@dimen/dp133"
+                    android:layout_height="@dimen/dp108"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:src="@mipmap/tv" />
                 <ImageView
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:layout_width="131dp"
-                    android:layout_height="36dp"
+                    android:layout_width="@dimen/dp131"
+                    android:layout_height="@dimen/dp36"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:src="@mipmap/sjx" />

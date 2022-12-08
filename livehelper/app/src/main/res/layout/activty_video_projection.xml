@@ -10,14 +10,14 @@
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="44dp"
+        android:layout_height="@dimen/dp44"
         android:background="#ffffffff"
         android:orientation="horizontal">
         <ImageView
             android:layout_gravity="center"
-            android:layout_width="18dp"
-            android:layout_height="18dp"
-            android:layout_marginLeft="10.5dp"
+            android:layout_width="@dimen/dp18"
+            android:layout_height="@dimen/dp18"
+            android:layout_marginLeft="@dimen/dp10"
             android:src="@mipmap/return_ba" />
         <LinearLayout
             android:layout_gravity="center"
@@ -45,12 +45,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/dp20"
         >
 
         <ImageView
-            android:layout_width="290dp"
-            android:layout_height="200dp"
+            android:layout_width="@dimen/dp290"
+            android:layout_height="@dimen/dp200"
             android:layout_centerInParent="true"
             android:layout_gravity="center"
             android:src="@mipmap/video_o" />
@@ -69,7 +69,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="@dimen/dp40"
         android:orientation="vertical"
         >
         <TextView
@@ -85,20 +85,20 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:orientation="horizontal"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="@dimen/dp64"
         >
         <ImageView
             android:layout_weight="1"
-            android:layout_width="22dp"
-            android:layout_height="22dp"
+            android:layout_width="@dimen/dp22"
+            android:layout_height="@dimen/dp22"
             android:layout_centerInParent="true"
             android:layout_gravity="center"
             android:src="@mipmap/subtract" />
 
         <ImageView
             android:layout_weight="1"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="@dimen/dp26"
+            android:layout_height="@dimen/dp26"
             android:layout_centerInParent="true"
             android:layout_gravity="center"
             android:src="@mipmap/v_left" />
@@ -107,32 +107,32 @@
         <ImageView
             android:visibility="gone"
             android:layout_weight="1"
-            android:layout_width="52dp"
-            android:layout_height="52dp"
+            android:layout_width="@dimen/dp52"
+            android:layout_height="@dimen/dp52"
             android:layout_centerInParent="true"
             android:layout_gravity="center"
             android:src="@mipmap/v_bofang" />
 
         <ImageView
             android:layout_weight="1"
-            android:layout_width="52dp"
-            android:layout_height="52dp"
+            android:layout_width="@dimen/dp52"
+            android:layout_height="@dimen/dp52"
             android:layout_centerInParent="true"
             android:layout_gravity="center"
             android:src="@mipmap/bofang_v_s" />
 
         <ImageView
             android:layout_weight="1"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="@dimen/dp26"
+            android:layout_height="@dimen/dp26"
             android:layout_centerInParent="true"
             android:layout_gravity="center"
             android:src="@mipmap/v_right" />
 
         <ImageView
             android:layout_weight="1"
-            android:layout_width="22dp"
-            android:layout_height="22dp"
+            android:layout_width="@dimen/dp22"
+            android:layout_height="@dimen/dp22"
             android:layout_centerInParent="true"
             android:layout_gravity="center"
             android:src="@mipmap/add" />
@@ -144,13 +144,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="@dimen/dp40"
         tools:ignore="MissingConstraints">
 
         <TextView
             android:layout_alignParentBottom="true"
-            android:layout_width="100dp"
-            android:layout_height="40dp"
+            android:layout_width="@dimen/dp100"
+            android:layout_height="@dimen/dp40"
             android:layout_gravity="center"
             android:background="@drawable/button_c"
             android:gravity="center"

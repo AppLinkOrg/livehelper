@@ -11,15 +11,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="@dimen/dp44"
             android:background="#ff171719"
             android:orientation="horizontal">
 
             <ImageView
                 android:layout_gravity="center"
-                android:layout_width="18dp"
-                android:layout_height="18dp"
-                android:layout_marginLeft="10.5dp"
+                android:layout_width="@dimen/dp18"
+                android:layout_height="@dimen/dp18"
+                android:layout_marginLeft="@dimen/dp10"
                 android:src="@mipmap/w_left" />
 
             <LinearLayout
@@ -28,12 +28,12 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:layout_width="363dp"
+                    android:layout_width="@dimen/dp363"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:layout_marginRight="28.5dp"
+                    android:layout_marginRight="@dimen/dp28"
                     android:text="鼠标遥控"
                     android:textColor="#ffffffff"
                     android:textSize="16sp" />
@@ -43,21 +43,21 @@
         <LinearLayout
             android:visibility="gone"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="@dimen/dp400"
             android:gravity="center"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="@dimen/dp100"
+                android:layout_height="@dimen/dp100"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:src="@mipmap/shubiaojiantou"
                 android:visibility="gone" />
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="@dimen/dp100"
+                android:layout_height="@dimen/dp100"
                 android:src="@mipmap/chukong"
                 android:layout_gravity="center"
                 android:gravity="center"
@@ -70,18 +70,18 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:layout_margin="20dp"
+                    android:layout_margin="@dimen/dp20"
                     android:id="@+id/ok"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="@dimen/dp80"
+                    android:layout_height="@dimen/dp80"
                     android:layout_centerInParent="true"
                     android:src="@mipmap/ok_h"
                     android:visibility="visible" />
 
                 <ImageView
                     android:id="@+id/left_h"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="@dimen/dp80"
+                    android:layout_height="@dimen/dp80"
                     android:layout_alignTop="@+id/ok"
                     android:layout_toLeftOf="@+id/ok"
                     android:src="@mipmap/left_h"
@@ -89,8 +89,8 @@
 
                 <ImageView
                     android:id="@+id/rigth_h"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="@dimen/dp80"
+                    android:layout_height="@dimen/dp80"
                     android:layout_alignTop="@+id/ok"
                     android:layout_toRightOf="@id/ok"
                     android:src="@mipmap/right_h"
@@ -98,8 +98,8 @@
 
                 <ImageView
                     android:id="@+id/top_h"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="@dimen/dp80"
+                    android:layout_height="@dimen/dp80"
                     android:layout_alignLeft="@+id/ok"
                     android:layout_above="@id/ok"
                     android:src="@mipmap/top_h"
@@ -107,17 +107,17 @@
 
                 <ImageView
                     android:id="@+id/bottom_h"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="@dimen/dp80"
+                    android:layout_height="@dimen/dp80"
                     android:layout_alignRight="@+id/ok"
                     android:layout_below="@id/ok"
                     android:src="@mipmap/bottom_h"
                     android:visibility="visible" />
 
                 <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:width="5dp"
+                    android:layout_width="@dimen/dp80"
+                    android:layout_height="@dimen/dp80"
+                    android:width="@dimen/dp5"
                     android:background="@mipmap/bg_h"
                     android:gravity="center"
                     android:text="用户自定义"
@@ -127,9 +127,9 @@
                     android:textSize="13sp" />
 
                 <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:width="5dp"
+                    android:layout_width="@dimen/dp80"
+                    android:layout_height="@dimen/dp80"
+                    android:width="@dimen/dp5"
                     android:background="@mipmap/bg_h"
                     android:gravity="center"
                     android:text="PG+"
@@ -139,9 +139,9 @@
                     android:textSize="13sp" />
 
                 <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:width="5dp"
+                    android:layout_width="@dimen/dp80"
+                    android:layout_height="@dimen/dp80"
+                    android:width="@dimen/dp5"
                     android:background="@mipmap/bg_h"
                     android:gravity="center"
                     android:text="PG-"
@@ -151,9 +151,9 @@
                     android:textSize="13sp" />
 
                 <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:width="10dp"
+                    android:layout_width="@dimen/dp80"
+                    android:layout_height="@dimen/dp80"
+                    android:width="@dimen/dp10"
                     android:background="@mipmap/bg_h"
                     android:gravity="center"
                     android:text="用户自定义"
@@ -172,25 +172,25 @@
             android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="@dimen/dp20">
 
             <LinearLayout
-                android:layout_width="50dp"
+                android:layout_width="@dimen/dp50"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:gravity="center_horizontal"
                 android:layout_weight="1">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="@dimen/dp50"
+                    android:layout_height="@dimen/dp50"
                     android:layout_alignRight="@+id/ok"
                     android:layout_below="@id/ok"
                     android:src="@mipmap/bottom_h"
                     android:visibility="visible" />
 
                 <TextView
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="@dimen/dp15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -200,22 +200,22 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="50dp"
+                android:layout_width="@dimen/dp50"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:gravity="center_horizontal"
                 android:layout_weight="1">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="@dimen/dp50"
+                    android:layout_height="@dimen/dp50"
                     android:layout_alignRight="@+id/ok"
                     android:layout_below="@id/ok"
                     android:src="@mipmap/bottom_h"
                     android:visibility="visible" />
 
                 <TextView
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="@dimen/dp15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -232,15 +232,15 @@
                 android:layout_weight="1">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="@dimen/dp50"
+                    android:layout_height="@dimen/dp50"
                     android:layout_alignRight="@+id/ok"
                     android:layout_below="@id/ok"
                     android:src="@mipmap/bottom_h"
                     android:visibility="visible" />
 
                 <TextView
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="@dimen/dp15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -252,11 +252,11 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="@dimen/dp40"
             android:background="#ff29292a">
 
             <TextView
-                android:layout_marginLeft="15dp"
+                android:layout_marginLeft="@dimen/dp15"
                 android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -277,11 +277,11 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="60dp"
+                    android:layout_height="@dimen/dp60"
                     android:background="#ff1f1f21"
                     android:orientation="horizontal"
-                    android:paddingRight="33dp"
-                    android:paddingLeft="33dp"
+                    android:paddingRight="@dimen/dp33"
+                    android:paddingLeft="@dimen/dp33"
                     android:gravity="center">
 
                     <TextView
@@ -324,63 +324,63 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
+                    android:layout_height="@dimen/dp70"
                     android:background="#ff29292a"
                     android:orientation="horizontal"
-                    android:paddingRight="15dp"
-                    android:paddingLeft="15dp"
+                    android:paddingRight="@dimen/dp15"
+                    android:paddingLeft="@dimen/dp15"
                     android:gravity="center">
 
                     <ImageView
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
+                        android:layout_width="@dimen/dp32"
+                        android:layout_height="@dimen/dp32"
                         android:src="@mipmap/vol_j" />
 
                     <ImageView
                         android:layout_weight="2"
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
-                        android:layout_marginLeft="18dp"
-                        android:layout_marginRight="18dp"
+                        android:layout_width="@dimen/dp32"
+                        android:layout_height="@dimen/dp32"
+                        android:layout_marginLeft="@dimen/dp18"
+                        android:layout_marginRight="@dimen/dp18"
                         android:src="@mipmap/shubiaojiantou" />
 
                     <ImageView
 
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
+                        android:layout_width="@dimen/dp32"
+                        android:layout_height="@dimen/dp32"
                         android:src="@mipmap/vol_s" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="93dp"
+                    android:layout_height="@dimen/dp93"
                     android:background="#ff29292a"
                     android:orientation="horizontal"
                     android:gravity="center">
 
                     <ImageView
                         android:layout_weight="1"
-                        android:layout_width="93dp"
-                        android:layout_height="93dp"
+                        android:layout_width="@dimen/dp93"
+                        android:layout_height="@dimen/dp93"
                         android:src="@mipmap/home" />
 
                     <ImageView
                         android:layout_weight="1"
-                        android:layout_width="93dp"
-                        android:layout_height="93dp"
+                        android:layout_width="@dimen/dp93"
+                        android:layout_height="@dimen/dp93"
                         android:src="@mipmap/back_y" />
 
                     <ImageView
                         android:layout_weight="1"
-                        android:layout_width="93dp"
-                        android:layout_height="93dp"
+                        android:layout_width="@dimen/dp93"
+                        android:layout_height="@dimen/dp93"
                         android:src="@mipmap/keyboard_y" />
 
                     <ImageView
                         android:layout_weight="1"
-                        android:layout_width="93dp"
-                        android:layout_height="93dp"
+                        android:layout_width="@dimen/dp93"
+                        android:layout_height="@dimen/dp93"
                         android:src="@mipmap/touch_y" />
 
 
