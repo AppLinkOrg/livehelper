@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -66,7 +65,7 @@
             <TextView
                 android:gravity="center"
                 android:layout_gravity="center"
-                android:layout_marginTop="@dimen/dp82.5"
+                android:layout_marginTop="@dimen/dp82"
                 android:layout_width="@dimen/dp100"
                 android:layout_height="@dimen/dp30"
                 android:text="检查更新"
