@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:background="#fff8f8f8"
         android:orientation="vertical"
+        android:gravity="center"
         tools:ignore="MissingConstraints">
 
         <LinearLayout
@@ -23,6 +24,7 @@
             tools:layout_editor_absoluteY="@dimen/dp20dp">
 
             <ImageView
+                android:id="@+id/btnsetting"
                 android:layout_width="@dimen/dp20"
                 android:layout_height="@dimen/dp20"
                 android:layout_marginLeft="@dimen/dp14"
@@ -47,8 +49,9 @@
             android:orientation="horizontal">
 
             <EditText
+                android:layout_weight="1"
                 android:id="@+id/et_searchtext"
-                android:layout_width="@dimen/dp360"
+                android:layout_width="@dimen/dp300"
                 android:layout_height="@dimen/dp34"
                 android:layout_marginLeft="@dimen/dp15"
                 android:layout_marginTop="@dimen/dp8"
@@ -95,7 +98,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/dp14"
-                    android:layout_marginTop="@dimen/dp14"
+                    android:layout_marginTop="@dimen/dp4"
                     android:layout_marginBottom="@dimen/dp15"
                     android:text="192.168.3.234"
                     android:textColor="#ff999999"
@@ -106,11 +109,12 @@
         </ScrollView>
 
         <ImageView
+            android:visibility="gone"
             android:layout_width="@dimen/dp184"
             android:layout_height="@dimen/dp105"
             android:layout_centerVertical="true"
             android:layout_gravity="center"
-            android:layout_marginTop="@dimen/dp198"
+            android:gravity="center"
             android:src="@mipmap/nodata" />
 
     </LinearLayout>
@@ -122,6 +126,7 @@
         tools:ignore="MissingConstraints">
 
         <TextView
+            android:id="@+id/okewm"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp30"
             android:layout_alignParentBottom="true"
