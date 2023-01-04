@@ -4,18 +4,25 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+<<<<<<< HEAD
 import android.media.projection.MediaProjection;
 import android.media.projection.MediaProjectionManager;
+=======
+>>>>>>> 7f3a9ef2101da1d52216837c0caa90ae937d11bf
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+<<<<<<< HEAD
 
 import com.example.livehelper.socket.SocketService;
+=======
+>>>>>>> 7f3a9ef2101da1d52216837c0caa90ae937d11bf
 
 public class MainActivity extends AppCompatActivity {
     TextView btn;
     ImageView btnimg;
+<<<<<<< HEAD
 
 
 
@@ -24,11 +31,14 @@ public class MainActivity extends AppCompatActivity {
     private int captureRequestCode = 1;
     private MediaProjectionManager mediaProjectionManager;
     private SocketService socketService;
+=======
+>>>>>>> 7f3a9ef2101da1d52216837c0caa90ae937d11bf
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         init();
 
 
@@ -42,6 +52,20 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(intent);
 //            }
 //        });
+=======
+
+
+        //跳转
+        btn = (TextView) findViewById(R.id.okewm);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,HomeActivity.class);
+                intent.putExtra("info","信息");
+                startActivity(intent);
+            }
+        });
+>>>>>>> 7f3a9ef2101da1d52216837c0caa90ae937d11bf
 
 
         //跳转设置
