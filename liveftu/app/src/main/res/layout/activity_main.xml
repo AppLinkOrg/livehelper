@@ -216,7 +216,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_centerInparent="true"
                 android:layout_gravity="center"
                 android:gravity="center">
 
@@ -1239,10 +1238,11 @@
                                 android:textSize="8sp" />
 
                             <ImageView
+                                android:src="@mipmap/o_wifi"
                                 android:layout_width="@dimen/dp14"
                                 android:layout_height="@dimen/dp14"
                                 android:gravity="right"
-                                android:src="@mipmap/WIFI" />
+                                 />
 
 
                         </LinearLayout>
@@ -1939,5 +1939,9 @@
 
 
     </LinearLayout>
+    <SurfaceView
+        android:id="@+id/sfv_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </FrameLayout>
