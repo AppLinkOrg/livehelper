@@ -29,7 +29,10 @@ public class MainActivity extends AppCompatActivity {
         init();
 
 
-        //跳转
+
+
+
+//        //跳转
 //        btn = (TextView) findViewById(R.id.okewm);
 //        btn.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -39,19 +42,6 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(intent);
 //            }
 //        });
-
-
-
-        //跳转
-        btn = (TextView) findViewById(R.id.okewm);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,HomeActivity.class);
-                intent.putExtra("info","信息");
-                startActivity(intent);
-            }
-        });
 
 
 
